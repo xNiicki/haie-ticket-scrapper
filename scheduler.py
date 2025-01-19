@@ -6,7 +6,7 @@ def run_scraper():
     while True:
         # Run the scraping script
         print("Running scraper...")
-        subprocess.run(['python', 'scraper.py'])
+        subprocess.run(['python3', 'scraper.py'])
 
         # Wait for 5 minutes before running again
         print("Waiting for 5 minutes...")
